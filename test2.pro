@@ -1,4 +1,4 @@
-update=Fri 07 Apr 2017 22:58:55 BST
+update=Sat 08 Apr 2017 12:08:10 BST
 version=1
 last_client=eeschema
 [cvpcb]
@@ -85,4 +85,4 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=../kicad_teensy/teensy
-LibName32=../kicad_robot/taco
+LibName32=../kicad_robot_libary/taco
