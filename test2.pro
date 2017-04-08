@@ -1,4 +1,4 @@
-update=Sat 08 Apr 2017 13:30:17 BST
+update=Sat 08 Apr 2017 14:26:50 BST
 version=1
 last_client=kicad
 [cvpcb]
@@ -82,3 +82,4 @@ LibName30=contrib
 LibName31=valves
 LibName32=../kicad_teensy/teensy
 LibName33=../kicad_robot_libary/taco
+LibName34=/home/will/projects/electronics/kicad_robot_libary/taco
