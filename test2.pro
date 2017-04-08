@@ -84,5 +84,5 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=/home/will/projects/kicad/kicad_teensy/teensy
-LibName32=/home/will/projects/kicad/kicad_robot/taco
+LibName31=../kicad_teensy/teensy
+LibName32=../kicad_robot/taco
