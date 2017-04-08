@@ -1,1 +1,13 @@
+
+after mush messing around i think i have got this so others can use it...
+
+
+the kicad_robot needs to be in a directroy that also contains
+
+https://github.com/fishrockz/kicad_robot_libary.git
+
 https://github.com/XenGi/kicad_teensy.git
+
+url = https://github.com/KiCad/kicad-library.git
+
+
