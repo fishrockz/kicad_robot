@@ -1,0 +1,38 @@
+Cmp-Mod V01 Created by CvPcb (22-Jun-2014 BZR 4027)-stable date = Fri 07 Apr 2017 23:21:41 BST
+
+BeginCmp
+TimeStamp = /58E80C0B;
+Reference = Q1;
+ValeurCmp = IRLZ34N;
+IdModule  = TO220;
+EndCmp
+
+BeginCmp
+TimeStamp = /58E80CC0;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R4;
+EndCmp
+
+BeginCmp
+TimeStamp = /58E80CF0;
+Reference = R2;
+ValeurCmp = R;
+IdModule  = R3-LARGE_PADS;
+EndCmp
+
+BeginCmp
+TimeStamp = /58E80BBA;
+Reference = U1;
+ValeurCmp = TEENSY3.1;
+IdModule  = DIP-28__600;
+EndCmp
+
+BeginCmp
+TimeStamp = /58E80BE7;
+Reference = U2;
+ValeurCmp = HCPL3120;
+IdModule  = DIP-8__300;
+EndCmp
+
+EndListe

@@ -1,0 +1,173 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:teensy
+LIBS:taco
+LIBS:test2-cache
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "7 apr 2017"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L TEENSY3.1 U1
+U 1 1 58E80BBA
+P 2700 2950
+F 0 "U1" H 2700 4450 60  0000 C CNN
+F 1 "TEENSY3.1" H 2700 1450 60  0000 C CNN
+F 2 "" H 2700 2150 60  0000 C CNN
+F 3 "" H 2700 2150 60  0000 C CNN
+	1    2700 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L HCPL3120 U2
+U 1 1 58E80BE7
+P 6200 1850
+F 0 "U2" H 6200 2350 50  0000 C CNN
+F 1 "HCPL3120" H 6200 2250 50  0000 C CNN
+F 2 "Housings_DIP:DIP-8_W7.62mm" H 6200 1450 50  0001 C CIN
+F 3 "" H 6110 1855 50  0001 L CNN
+	1    6200 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L IRLZ34N Q1
+U 1 1 58E80C0B
+P 8300 1800
+F 0 "Q1" H 8550 1875 50  0000 L CNN
+F 1 "IRLZ34N" H 8550 1800 50  0000 L CNN
+F 2 "TO_SOT_Packages_THT:TO-220_Vertical" H 8550 1725 50  0001 L CIN
+F 3 "" H 8300 1800 50  0001 L CNN
+	1    8300 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR2
+U 1 1 58E80C1A
+P 8400 2550
+F 0 "#PWR2" H 8400 2300 50  0001 C CNN
+F 1 "GND" H 8400 2400 50  0000 C CNN
+F 2 "" H 8400 2550 50  0001 C CNN
+F 3 "" H 8400 2550 50  0001 C CNN
+	1    8400 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR1
+U 1 1 58E80C29
+P 8350 1050
+F 0 "#PWR1" H 8350 900 50  0001 C CNN
+F 1 "+5V" H 8350 1190 50  0000 C CNN
+F 2 "" H 8350 1050 50  0001 C CNN
+F 3 "" H 8350 1050 50  0001 C CNN
+	1    8350 1050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8350 1050 8350 1250
+Wire Wire Line
+	6600 1250 8600 1250
+Wire Wire Line
+	6600 1250 6600 1550
+Wire Wire Line
+	6600 2150 6600 2550
+Wire Wire Line
+	6600 2550 8400 2550
+Wire Wire Line
+	6600 1800 6600 1750
+Wire Wire Line
+	8400 2550 8400 2000
+Wire Wire Line
+	1600 2050 1350 2050
+Wire Wire Line
+	1350 2050 1350 1050
+Wire Wire Line
+	1350 1050 5800 1050
+Wire Wire Line
+	5800 1050 5800 1750
+$Comp
+L R R1
+U 1 1 58E80CC0
+P 7400 1850
+F 0 "R1" V 7480 1850 50  0000 C CNN
+F 1 "R" V 7400 1850 50  0000 C CNN
+F 2 "" V 7330 1850 50  0001 C CNN
+F 3 "" H 7400 1850 50  0001 C CNN
+	1    7400 1850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 1800 7000 1800
+Wire Wire Line
+	7000 1800 7000 2000
+Wire Wire Line
+	7000 2000 7400 2000
+Wire Wire Line
+	7400 1700 7850 1700
+Wire Wire Line
+	7850 1700 7850 1800
+Wire Wire Line
+	7850 1800 8100 1800
+$Comp
+L R R2
+U 1 1 58E80CF0
+P 8600 1400
+F 0 "R2" V 8680 1400 50  0000 C CNN
+F 1 "R" V 8600 1400 50  0000 C CNN
+F 2 "" V 8530 1400 50  0001 C CNN
+F 3 "" H 8600 1400 50  0001 C CNN
+	1    8600 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8600 1550 8400 1550
+Wire Wire Line
+	8400 1550 8400 1600
+Connection ~ 8350 1250
+Wire Wire Line
+	1600 1650 1600 1200
+Wire Wire Line
+	1600 1200 4500 1200
+Wire Wire Line
+	4500 1200 4500 1950
+Wire Wire Line
+	4500 1950 5800 1950
+$EndSCHEMATC
