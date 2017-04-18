@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:secondGo-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,7 +30,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:teensy
 LIBS:taco
-LIBS:secondGo-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -127,8 +125,6 @@ $EndComp
 Wire Wire Line
 	5900 5100 4200 5100
 Wire Wire Line
-	1650 5950 2950 5950
-Wire Wire Line
 	3050 900  7400 900 
 Wire Wire Line
 	7400 900  7400 2000
@@ -200,144 +196,124 @@ $EndComp
 $Comp
 L POT Pressure1
 U 1 1 58EA1021
-P 1650 3500
-F 0 "Pressure1" V 1475 3500 50  0000 C CNN
-F 1 "POT" V 1550 3500 50  0000 C CNN
-F 2 "wsPot:Potentiometer_Trimmer_WS_Vertical_Px5.0mm_Py10.0mm" H 1650 3500 50  0001 C CNN
-F 3 "" H 1650 3500 50  0001 C CNN
-	1    1650 3500
+P 1000 3350
+F 0 "Pressure1" V 825 3350 50  0000 C CNN
+F 1 "POT" V 900 3350 50  0000 C CNN
+F 2 "wsPot:Potentiometer_Trimmer_WS_Vertical_Px5.0mm_Py10.0mm" H 1000 3350 50  0001 C CNN
+F 3 "" H 1000 3350 50  0001 C CNN
+	1    1000 3350
 	1    0    0    -1  
 $EndComp
 $Comp
 L POT Presure2
 U 1 1 58EA1157
-P 1650 3950
-F 0 "Presure2" V 1475 3950 50  0000 C CNN
-F 1 "POT" V 1550 3950 50  0000 C CNN
-F 2 "wsPot:Potentiometer_Trimmer_WS_Vertical_Px5.0mm_Py10.0mm" H 1650 3950 50  0001 C CNN
-F 3 "" H 1650 3950 50  0001 C CNN
-	1    1650 3950
+P 1000 3800
+F 0 "Presure2" V 825 3800 50  0000 C CNN
+F 1 "POT" V 900 3800 50  0000 C CNN
+F 2 "wsPot:Potentiometer_Trimmer_WS_Vertical_Px5.0mm_Py10.0mm" H 1000 3800 50  0001 C CNN
+F 3 "" H 1000 3800 50  0001 C CNN
+	1    1000 3800
 	1    0    0    -1  
 $EndComp
 $Comp
 L POT Presure3
 U 1 1 58EA1216
-P 1650 4450
-F 0 "Presure3" V 1475 4450 50  0000 C CNN
-F 1 "POT" V 1550 4450 50  0000 C CNN
-F 2 "wsPot:Potentiometer_Trimmer_WS_Vertical_Px5.0mm_Py10.0mm" H 1650 4450 50  0001 C CNN
-F 3 "" H 1650 4450 50  0001 C CNN
-	1    1650 4450
+P 1000 4300
+F 0 "Presure3" V 825 4300 50  0000 C CNN
+F 1 "POT" V 900 4300 50  0000 C CNN
+F 2 "wsPot:Potentiometer_Trimmer_WS_Vertical_Px5.0mm_Py10.0mm" H 1000 4300 50  0001 C CNN
+F 3 "" H 1000 4300 50  0001 C CNN
+	1    1000 4300
 	1    0    0    -1  
 $EndComp
 $Comp
 L POT Spare1
 U 1 1 58EA12D7
-P 1650 4900
-F 0 "Spare1" V 1475 4900 50  0000 C CNN
-F 1 "POT" V 1550 4900 50  0000 C CNN
-F 2 "wsPot:Potentiometer_Trimmer_WS_Vertical_Px5.0mm_Py10.0mm" H 1650 4900 50  0001 C CNN
-F 3 "" H 1650 4900 50  0001 C CNN
-	1    1650 4900
+P 1000 4750
+F 0 "Spare1" V 825 4750 50  0000 C CNN
+F 1 "POT" V 900 4750 50  0000 C CNN
+F 2 "wsPot:Potentiometer_Trimmer_WS_Vertical_Px5.0mm_Py10.0mm" H 1000 4750 50  0001 C CNN
+F 3 "" H 1000 4750 50  0001 C CNN
+	1    1000 4750
 	1    0    0    -1  
 $EndComp
 $Comp
 L POT Targeting1
 U 1 1 58EA139C
-P 1650 5350
-F 0 "Targeting1" V 1475 5350 50  0000 C CNN
-F 1 "POT" V 1550 5350 50  0000 C CNN
-F 2 "wsPot:Potentiometer_Trimmer_WS_Vertical_Px5.0mm_Py10.0mm" H 1650 5350 50  0001 C CNN
-F 3 "" H 1650 5350 50  0001 C CNN
-	1    1650 5350
+P 1000 5200
+F 0 "Targeting1" V 825 5200 50  0000 C CNN
+F 1 "POT" V 900 5200 50  0000 C CNN
+F 2 "wsPot:Potentiometer_Trimmer_WS_Vertical_Px5.0mm_Py10.0mm" H 1000 5200 50  0001 C CNN
+F 3 "" H 1000 5200 50  0001 C CNN
+	1    1000 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L POT Retract1
 U 1 1 58EA14EE
-P 1650 5800
-F 0 "Retract1" V 1475 5800 50  0000 C CNN
-F 1 "POT" V 1550 5800 50  0000 C CNN
-F 2 "wsPot:Potentiometer_Trimmer_WS_Vertical_Px5.0mm_Py10.0mm" H 1650 5800 50  0001 C CNN
-F 3 "" H 1650 5800 50  0001 C CNN
-	1    1650 5800
+P 1000 5650
+F 0 "Retract1" V 825 5650 50  0000 C CNN
+F 1 "POT" V 900 5650 50  0000 C CNN
+F 2 "wsPot:Potentiometer_Trimmer_WS_Vertical_Px5.0mm_Py10.0mm" H 1000 5650 50  0001 C CNN
+F 3 "" H 1000 5650 50  0001 C CNN
+	1    1000 5650
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1650 3350 1250 3350
+	1000 3200 600  3200
 Wire Wire Line
-	1250 3350 1250 5650
+	600  3200 600  6600
 Wire Wire Line
-	1250 3800 1650 3800
+	600  3650 1000 3650
 Wire Wire Line
-	1250 4300 1650 4300
-Connection ~ 1250 3800
+	600  4150 1000 4150
+Connection ~ 600  3650
 Wire Wire Line
-	1250 4750 1650 4750
-Connection ~ 1250 4300
+	600  4600 1000 4600
+Connection ~ 600  4150
 Wire Wire Line
-	1250 5200 1650 5200
-Connection ~ 1250 4750
-Connection ~ 1250 5200
+	600  5050 1000 5050
+Connection ~ 600  4600
+Connection ~ 600  5050
 Wire Wire Line
-	2000 3650 2000 5950
+	1000 4900 1550 4900
 Wire Wire Line
-	2000 5500 1650 5500
+	1000 4450 1350 4450
+Connection ~ 1200 4900
 Wire Wire Line
-	2000 5050 1650 5050
-Connection ~ 2000 5500
+	1000 3950 1350 3950
+Connection ~ 1200 4450
 Wire Wire Line
-	2000 4600 1650 4600
-Connection ~ 2000 5050
-Wire Wire Line
-	2000 4100 1650 4100
-Connection ~ 2000 4600
-Wire Wire Line
-	2000 3650 1650 3650
-Connection ~ 2000 4100
+	1000 3500 1600 3500
+Connection ~ 1200 3950
 Connection ~ 2950 5950
-Connection ~ 2000 5950
-Connection ~ 1650 5650
-Wire Wire Line
-	1800 3500 3300 3500
-Wire Wire Line
-	2150 3950 2150 3600
+Connection ~ 1000 5500
 Wire Wire Line
 	2150 3600 3300 3600
 Wire Wire Line
-	2250 4450 2250 3700
-Wire Wire Line
 	2250 3700 3300 3700
-Wire Wire Line
-	2350 4900 2350 3800
 Wire Wire Line
 	2350 3800 3300 3800
 Wire Wire Line
-	2450 5350 2450 3900
-Wire Wire Line
 	2450 3900 3300 3900
 Wire Wire Line
-	2550 4000 2550 5800
-Wire Wire Line
-	2550 5800 1800 5800
+	1900 5650 1150 5650
 Wire Wire Line
 	2550 4000 3300 4000
 Wire Wire Line
-	2150 3950 1800 3950
+	1500 3800 1150 3800
 Wire Wire Line
-	2250 4450 1800 4450
+	1600 4300 1150 4300
 Wire Wire Line
-	2350 4900 1800 4900
+	1700 4750 1150 4750
 Wire Wire Line
-	2450 5350 1800 5350
+	1800 5200 1150 5200
 Wire Wire Line
 	5900 6450 6550 6450
 Wire Wire Line
 	5900 6850 6550 6850
 Wire Wire Line
 	5900 6900 5900 6850
-Wire Wire Line
-	1250 5650 3550 5650
 Wire Wire Line
 	3150 1050 3150 1500
 Connection ~ 3150 1500
@@ -353,8 +329,6 @@ Wire Wire Line
 Connection ~ 6150 6850
 Wire Wire Line
 	2950 6750 3550 6750
-Wire Wire Line
-	3550 5650 3550 6600
 Wire Wire Line
 	4200 5700 2950 5700
 Connection ~ 2950 5700
@@ -382,4 +356,209 @@ F 3 "" H 4450 6650 60  0000 C CNN
 	1    4450 6700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	3300 3500 2150 3500
+Wire Wire Line
+	2150 3500 2150 3350
+$Comp
+L R R17
+U 1 1 58F68E0B
+P 1550 3350
+F 0 "R17" V 1630 3350 50  0000 C CNN
+F 1 "R" V 1550 3350 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1480 3350 50  0001 C CNN
+F 3 "" H 1550 3350 50  0001 C CNN
+	1    1550 3350
+	0    1    1    0   
+$EndComp
+$Comp
+L R R18
+U 1 1 58F68E74
+P 1650 3800
+F 0 "R18" V 1730 3800 50  0000 C CNN
+F 1 "R" V 1650 3800 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1580 3800 50  0001 C CNN
+F 3 "" H 1650 3800 50  0001 C CNN
+	1    1650 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L R R19
+U 1 1 58F68ED9
+P 1750 4300
+F 0 "R19" V 1830 4300 50  0000 C CNN
+F 1 "R" V 1750 4300 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1680 4300 50  0001 C CNN
+F 3 "" H 1750 4300 50  0001 C CNN
+	1    1750 4300
+	0    1    1    0   
+$EndComp
+$Comp
+L R R21
+U 1 1 58F68F40
+P 1850 4750
+F 0 "R21" V 1930 4750 50  0000 C CNN
+F 1 "R" V 1850 4750 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1780 4750 50  0001 C CNN
+F 3 "" H 1850 4750 50  0001 C CNN
+	1    1850 4750
+	0    1    1    0   
+$EndComp
+$Comp
+L R R23
+U 1 1 58F68FDB
+P 1950 5200
+F 0 "R23" V 2030 5200 50  0000 C CNN
+F 1 "R" V 1950 5200 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1880 5200 50  0001 C CNN
+F 3 "" H 1950 5200 50  0001 C CNN
+	1    1950 5200
+	0    1    1    0   
+$EndComp
+$Comp
+L R R25
+U 1 1 58F69084
+P 2050 5650
+F 0 "R25" V 2130 5650 50  0000 C CNN
+F 1 "R" V 2050 5650 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1980 5650 50  0001 C CNN
+F 3 "" H 2050 5650 50  0001 C CNN
+	1    2050 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L R R20
+U 1 1 58F69111
+P 1850 3500
+F 0 "R20" V 1930 3500 50  0000 C CNN
+F 1 "R" V 1850 3500 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1780 3500 50  0001 C CNN
+F 3 "" H 1850 3500 50  0001 C CNN
+	1    1850 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R22
+U 1 1 58F69184
+P 1900 3950
+F 0 "R22" V 1980 3950 50  0000 C CNN
+F 1 "R" V 1900 3950 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1830 3950 50  0001 C CNN
+F 3 "" H 1900 3950 50  0001 C CNN
+	1    1900 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R24
+U 1 1 58F69217
+P 2000 4450
+F 0 "R24" V 2080 4450 50  0000 C CNN
+F 1 "R" V 2000 4450 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 1930 4450 50  0001 C CNN
+F 3 "" H 2000 4450 50  0001 C CNN
+	1    2000 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R26
+U 1 1 58F692B6
+P 2100 4900
+F 0 "R26" V 2180 4900 50  0000 C CNN
+F 1 "R" V 2100 4900 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2030 4900 50  0001 C CNN
+F 3 "" H 2100 4900 50  0001 C CNN
+	1    2100 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R27
+U 1 1 58F69355
+P 2200 5350
+F 0 "R27" V 2280 5350 50  0000 C CNN
+F 1 "R" V 2200 5350 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2130 5350 50  0001 C CNN
+F 3 "" H 2200 5350 50  0001 C CNN
+	1    2200 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R28
+U 1 1 58F693F4
+P 2350 5800
+F 0 "R28" V 2430 5800 50  0000 C CNN
+F 1 "R" V 2350 5800 50  0000 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2280 5800 50  0001 C CNN
+F 3 "" H 2350 5800 50  0001 C CNN
+	1    2350 5800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2200 5650 2550 5650
+Wire Wire Line
+	2100 5200 2450 5200
+Wire Wire Line
+	2000 4750 2350 4750
+Wire Wire Line
+	1900 4300 2250 4300
+Wire Wire Line
+	1800 3800 2150 3800
+Wire Wire Line
+	1400 3350 1150 3350
+Wire Wire Line
+	2150 3350 1700 3350
+Connection ~ 1850 3350
+Connection ~ 1900 3800
+Wire Wire Line
+	2150 3800 2150 3600
+Wire Wire Line
+	2250 4300 2250 3700
+Connection ~ 2000 4300
+Wire Wire Line
+	2350 4750 2350 3800
+Connection ~ 2100 4750
+Wire Wire Line
+	2450 5200 2450 3900
+Connection ~ 2200 5200
+Wire Wire Line
+	2550 5650 2550 4000
+Connection ~ 2350 5650
+Wire Wire Line
+	1600 3500 1600 3650
+Wire Wire Line
+	1600 3650 1850 3650
+Wire Wire Line
+	1350 3950 1350 4100
+Wire Wire Line
+	1350 4100 1900 4100
+Wire Wire Line
+	1350 4450 1350 4600
+Wire Wire Line
+	1350 4600 2000 4600
+Wire Wire Line
+	1550 4900 1550 5050
+Wire Wire Line
+	1550 5050 2100 5050
+Wire Wire Line
+	1350 5800 1000 5800
+Connection ~ 1200 3350
+Connection ~ 1200 5350
+Connection ~ 1200 5800
+Wire Wire Line
+	1350 5950 2950 5950
+Wire Wire Line
+	1000 5350 1200 5350
+Wire Wire Line
+	600  5500 1000 5500
+Wire Wire Line
+	1350 5800 1350 5950
+Wire Wire Line
+	2200 5500 1200 5500
+Connection ~ 1200 5500
+Wire Wire Line
+	1200 3500 1200 5800
+Connection ~ 1200 3500
+Connection ~ 2350 5950
+Wire Wire Line
+	600  6600 3550 6600
+Connection ~ 600  5500
 $EndSCHEMATC
