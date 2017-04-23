@@ -745,4 +745,15 @@ $EndComp
 Wire Wire Line
 	4200 6400 2950 6400
 Connection ~ 2950 6400
+$Comp
+L R R29
+U 1 1 58FD2170
+P 6300 2550
+F 0 "R29" V 6380 2550 50  0000 C CNN
+F 1 "R" V 6300 2550 50  0000 C CNN
+F 2 "robotlibary:logoA1" V 6230 2550 50  0001 C CNN
+F 3 "" H 6300 2550 50  0001 C CNN
+	1    6300 2550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
