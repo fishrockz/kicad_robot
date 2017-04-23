@@ -10,6 +10,7 @@ LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
+LIBS:special
 LIBS:microcontrollers
 LIBS:dsp
 LIBS:microchip
@@ -30,6 +31,7 @@ LIBS:contrib
 LIBS:valves
 LIBS:teensy
 LIBS:taco
+LIBS:secondGo-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -454,7 +456,7 @@ U 1 1 58E91D3C
 P 5550 1100
 F 0 "R9" V 5630 1100 50  0000 C CNN
 F 1 "R" V 5550 1100 50  0000 C CNN
-F 2 "robotlibary:Selinoid" V 5480 1100 50  0001 C CNN
+F 2 "robotlibary:Value" V 5480 1100 50  0001 C CNN
 F 3 "" H 5550 1100 50  0001 C CNN
 	1    5550 1100
 	1    0    0    -1  
@@ -465,7 +467,7 @@ U 1 1 58E91DC9
 P 5550 2000
 F 0 "R10" V 5630 2000 50  0000 C CNN
 F 1 "R" V 5550 2000 50  0000 C CNN
-F 2 "robotlibary:Selinoid" V 5480 2000 50  0001 C CNN
+F 2 "robotlibary:Value" V 5480 2000 50  0001 C CNN
 F 3 "" H 5550 2000 50  0001 C CNN
 	1    5550 2000
 	1    0    0    -1  
@@ -476,7 +478,7 @@ U 1 1 58E91E12
 P 5600 2900
 F 0 "R11" V 5680 2900 50  0000 C CNN
 F 1 "R" V 5600 2900 50  0000 C CNN
-F 2 "robotlibary:Selinoid" V 5530 2900 50  0001 C CNN
+F 2 "robotlibary:Value" V 5530 2900 50  0001 C CNN
 F 3 "" H 5600 2900 50  0001 C CNN
 	1    5600 2900
 	1    0    0    -1  
@@ -487,7 +489,7 @@ U 1 1 58E91E5D
 P 5650 3800
 F 0 "R12" V 5730 3800 50  0000 C CNN
 F 1 "R" V 5650 3800 50  0000 C CNN
-F 2 "robotlibary:Selinoid" V 5580 3800 50  0001 C CNN
+F 2 "robotlibary:Value" V 5580 3800 50  0001 C CNN
 F 3 "" H 5650 3800 50  0001 C CNN
 	1    5650 3800
 	1    0    0    -1  
@@ -498,7 +500,7 @@ U 1 1 58E91EAA
 P 5650 4750
 F 0 "R13" V 5730 4750 50  0000 C CNN
 F 1 "R" V 5650 4750 50  0000 C CNN
-F 2 "robotlibary:Selinoid" V 5580 4750 50  0001 C CNN
+F 2 "robotlibary:Value" V 5580 4750 50  0001 C CNN
 F 3 "" H 5650 4750 50  0001 C CNN
 	1    5650 4750
 	1    0    0    -1  
@@ -509,7 +511,7 @@ U 1 1 58E91EF9
 P 5650 5650
 F 0 "R14" V 5730 5650 50  0000 C CNN
 F 1 "R" V 5650 5650 50  0000 C CNN
-F 2 "robotlibary:Selinoid" V 5580 5650 50  0001 C CNN
+F 2 "robotlibary:Value" V 5580 5650 50  0001 C CNN
 F 3 "" H 5650 5650 50  0001 C CNN
 	1    5650 5650
 	1    0    0    -1  
@@ -520,7 +522,7 @@ U 1 1 58E91F4A
 P 5650 6500
 F 0 "R15" V 5730 6500 50  0000 C CNN
 F 1 "R" V 5650 6500 50  0000 C CNN
-F 2 "robotlibary:Selinoid" V 5580 6500 50  0001 C CNN
+F 2 "robotlibary:Value" V 5580 6500 50  0001 C CNN
 F 3 "" H 5650 6500 50  0001 C CNN
 	1    5650 6500
 	1    0    0    -1  
@@ -531,7 +533,7 @@ U 1 1 58E91F9D
 P 5700 7450
 F 0 "R16" V 5780 7450 50  0000 C CNN
 F 1 "R" V 5700 7450 50  0000 C CNN
-F 2 "robotlibary:Selinoid" V 5630 7450 50  0001 C CNN
+F 2 "robotlibary:Value" V 5630 7450 50  0001 C CNN
 F 3 "" H 5700 7450 50  0001 C CNN
 	1    5700 7450
 	1    0    0    -1  
